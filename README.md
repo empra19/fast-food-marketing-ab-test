@@ -11,7 +11,7 @@ Market size (Small, Medium, or Large) already has a clear effect on sales before
 ## Recommendation
 Eliminate Promotion 2. Roll out Promotion 1 or Promotion 3 based on cost or operational factors as there is no statistically significant difference between them in either Medium/Large markets.
 
-Estimated gross revenue uplift of £10.8k per outlet per week against the P2 baseline, equating to ~£110m annually under a base scenario of 850 outlets across 12 promotional weeks. Net uplift ~£89.8m after illustrative promotion costs (~£2k per outlet per week, derived from a 3–6% of revenue industry benchmark. Replace with actual figures before any investment decision).
+Estimated gross revenue uplift of £10.8k per outlet per week against the P2 baseline, equating to ~£110m annually under a base scenario of 850 outlets across 12 promotional weeks. Net uplift ~£89.8m after illustrative promotion costs (~£2k per outlet per week, derived from a 3-6% of revenue industry benchmark. Replace with actual figures before any investment decision).
 
 Recommend a 8-12 week regional pilot before full national rollout.
 
