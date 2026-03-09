@@ -13,7 +13,7 @@ Eliminate Promotion 2. Roll out Promotion 1 or Promotion 3 based on cost or oper
 
 Estimated gross revenue uplift of £10.8k per outlet per week against the P2 baseline, equating to ~£110m annually under a base scenario of 850 outlets across 12 promotional weeks. Net uplift ~£89.8m after illustrative promotion costs (~£2k per outlet per week, derived from a 3–6% of revenue industry benchmark. Replace with actual figures before any investment decision).
 
-An 8–12 week regional pilot is recommended before full national rollout.
+Recommend a 8-12 week regional pilot before full national rollout.
 
 ## Screenshots
 
