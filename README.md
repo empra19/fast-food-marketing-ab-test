@@ -6,7 +6,16 @@ Dataset: [Fast Food Marketing Campaign](https://www.kaggle.com/datasets/chebotin
 
 ## Approach
 
-Market size (Small, Medium, or Large) already has a clear effect on sales before any promotions are involved, so we compared promotions within each size category separately rather than mixing them all together. For Large and Medium markets, we ran statistical tests (Mann-Whitney U) between each pair of promotions, applied Bonferroni correction to account for running multiple tests, and used rank-biserial correlation to measure how strong each difference was. Small markets didn't have enough data to be reliable, so they were excluded from the recommendation.
+Market size (Small, Medium, or Large) already has a clear effect on sales before any promotions are involved, so promotions were compared within each size category separately rather than together. For Large and Medium markets, statistical tests (Mann-Whitney U) were run between each pair of promotions, with Bonferroni correction applied to account for running multiple tests, and rank-biserial correlation used to measure how strong each difference was. Small markets didn't have enough data to be reliable, so they were excluded from the recommendation.
+
+## Results
+
+|  | P1 vs P2 | P1 vs P3 | P2 vs P3 |
+|---|---|---|---|
+| **Large markets** | Sig · r=0.625 | Not sig · r=0.190 | Sig · r=0.760 |
+| **Medium markets** | Sig · r=0.568 | Not sig · r=0.190 | Sig · r=0.494 |
+
+Both segments return identical conclusions. Performance gaps were stable across all four test weeks, confirming the promotion effect persists beyond the initial launch period. Effect sizes (r) represent the difference in probability that an outlet from one group outsells an outlet from the other, minus the reverse: r<0.1 is negligible, 0.1-0.3 small, 0.3-0.5 medium,  >0.5 large.
 
 ## Recommendation
 Eliminate Promotion 2. Roll out Promotion 1 or Promotion 3 based on cost or operational factors as there is no statistically significant difference between them in either Medium/Large markets.
