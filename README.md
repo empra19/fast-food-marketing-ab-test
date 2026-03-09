@@ -10,10 +10,12 @@ Market size (Small, Medium, or Large) already has a clear effect on sales before
 
 ## Results
 
-|  | P1 vs P2 | P1 vs P3 | P2 vs P3 |
+| | P1 vs P2 | P1 vs P3 | P2 vs P3 |
 |---|---|---|---|
-| **Large markets** | Sig · r=0.625 | Not sig · r=0.190 | Sig · r=0.760 |
-| **Medium markets** | Sig · r=0.568 | Not sig · r=0.190 | Sig · r=0.494 |
+| **Large** | Sig | Not sig | Sig |
+| | r=0.625 | r=0.190 | r=0.760 |
+| **Medium** | Sig | Not sig | Sig |
+| | r=0.568 | r=0.190 | r=0.494 |
 
 Both segments return identical conclusions. Performance gaps were stable across all four test weeks, confirming the promotion effect persists beyond the initial launch period. Effect sizes (r) represent the difference in probability that an outlet from one group outsells an outlet from the other, minus the reverse: r<0.1 is negligible, 0.1-0.3 small, 0.3-0.5 medium,  >0.5 large.
 
