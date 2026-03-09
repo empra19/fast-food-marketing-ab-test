@@ -6,7 +6,7 @@ Dataset: [Fast Food Marketing Campaign](https://www.kaggle.com/datasets/chebotin
 
 ## Approach
 
-Market size (Small/Medium/Large) was established as a significant structural driver of sales before any promotion testing, so all comparisons were run within segments rather than pooled. Within Large and Medium markets, pairwise Mann-Whitney U tests were run with Bonferroni correction across three comparisons, with rank-biserial correlation as the effect size measure. Small markets had insufficient sample sizes to draw reliable conclusions and were excluded from the recommendation.
+Market size (Small, Medium, or Large) already has a clear effect on sales before any promotions are involved, so we compared promotions within each size category separately rather than mixing them all together. For Large and Medium markets, we ran statistical tests (Mann-Whitney U) between each pair of promotions, applied Bonferroni correction to account for running multiple tests, and used rank-biserial correlation to measure how strong each difference was. Small markets didn't have enough data to be reliable, so they were excluded from the recommendation.
 
 ## Recommendation
 Eliminate Promotion 2. Roll out Promotion 1 or Promotion 3 based on cost or operational factors as there is no statistically significant difference between them in either Medium/Large markets.
